@@ -262,7 +262,7 @@ Visualization Manager:
       Queue Size: 10
       Selectable: true
       Size (Pixels): 3
-      Size (m): 0.01
+      Size (m): 0.05
       Style: Squares
       Topic: /scan
       Use Fixed Frame: true
