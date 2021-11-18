@@ -1,8 +1,0 @@
-<launch>
-
-  <include file="$(find NuPioneer3dx)/rosaria.launch" />
-  <include file="$(find rplidar_ros)/launch/rplidar.launch" />
-
-  <node pkg="tf" type="static_transform_publisher" name="lidar_tf" args="0.12 0 0.26 0 0 0 1 base_link laser 100" />
-
-</launch>
